@@ -4,6 +4,7 @@
 
 	/* remove ill effects of magic quotes */
 
+	/*
 	if (get_magic_quotes_gpc()) {
 		function stripslashes_deep($value) {
 			$value = is_array($value) ?
@@ -16,6 +17,7 @@
 		$_COOKIE = array_map('stripslashes_deep', $_COOKIE);
 		$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
 	}
+	*/
 
 	require_once "autoload.php";
 	require_once "sessions.php";
